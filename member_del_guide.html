@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TourCat 계정/데이터 삭제 안내</title>
+  <meta name="description" content="TourCat 계정 삭제 요청 절차와 데이터 삭제/보관 정책을 안내합니다.">
+  <style>
+    :root { --bg:#f7f7fb; --fg:#111; --sub:#555; --card:#fff; --bd:#e6e6ef; --accent:#3a6df0; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto}
+    .wrap{max-width:900px;margin:0 auto;padding:32px 20px}
+    .card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:24px;margin:16px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+    h1{font-size:28px;margin:0 0 8px} h2{font-size:20px;margin:24px 0 8px}
+    .badge{display:inline-block;background:var(--accent);color:#fff;border-radius:999px;padding:4px 10px;font-size:12px;margin-left:8px}
+    p.lead{color:var(--sub);margin-top:0}
+    ul{padding-left:18px} li{margin:6px 0}
+    .grid{display:grid;gap:12px}@media(min-width:720px){.grid{grid-template-columns:1fr 1fr}}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th,td{border:1px solid var(--bd);padding:10px;text-align:left;vertical-align:top}
+    small, .muted{color:var(--sub)}
+    .btn{display:inline-block;border:1px solid var(--accent);color:var(--accent);padding:10px 14px;border-radius:10px;text-decoration:none}
+    .btn.fill{background:var(--accent);color:#fff}
+    .note{background:#fff8e1;border:1px solid #ffe49a}
+    .footer{font-size:13px;color:var(--sub);margin-top:24px}
+    code{background:#f2f2f6;border:1px solid var(--bd);padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <h1>TourCat계정/데이터 삭제 안내 <span class="badge">임시 안내</span></h1>
+      <p class="lead">개발/테스트 단계입니다. 정식 서비스 전까지 본 페이지를 통해 삭제 요청을 접수합니다.</p>
+      <div class="card">
+        <strong>앱/개발자:</strong> TourCat <br/>
+        <strong>연락처:</strong> <a href="mailto:tourcat_support@gamil.com">tourcat_support@gamil.com</a><br/>
+        <strong>앱 식별자:</strong> com.waveapp.tourcat (Android)
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>1) 계정 삭제 요청 방법</h2>
+      <ol>
+        <li><strong>이메일 요청:</strong> 아래 버튼 또는 이메일(<a href="mailto:tourcat_support@gamil.com">tourcat_support@gamil.com</a>)로
+          <em>계정 삭제 요청</em>을 보내주세요.
+          <ul>
+            <li>필수 정보: 로그인 수단(OAuth 제공자), 계정 식별 정보(이메일 등), 요청자 본인 여부 확인용 정보</li>
+          </ul>
+        </li>
+        <li><strong>본인 확인</strong> 후 처리 결과를 회신드립니다.</li>
+        <li>정상 접수 시 <strong>영업일 기준 {{DELETE_TAT_BUSINESS_DAYS}}일 이내</strong>에 삭제가 완료됩니다.</li>
+      </ol>
+      <p>
+        <a class="btn fill" href="mailto:tourcat_support@gamil.com?subject=%5B{{APP_NAME}}%5D%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD&body=%2A%20%EC%95%B1%20%EC%9D%B4%EB%A6%84:%20{{APP_NAME}}%0A%2A%20%EC%9A%A9%EC%9E%90%20ID/Email:%20%0A%2A%20OAuth%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%EC%A0%9C%EA%B3%B5%EC%9E%90(Google/Kakao%20%EB%93%B1):%20%0A%2A%20%EB%B3%B8%EC%9D%B8%20%ED%99%95%EC%9D%B8%20%EC%A0%95%EB%B3%B4:%20%28%EC%83%81%EC%84%B8%29%0A%2A%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD%20%EC%82%AC%EC%9C%A0:%20">이메일로 삭제 요청하기</a>
+      </p>
+      <p class="muted">※ 향후 앱 내 “계정 삭제” 기능 제공 예정입니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>2) 삭제되는 데이터 / 보관되는 데이터</h2>
+      <div class="grid">
+        <div>
+          <h3>삭제되는 데이터</h3>
+          <ul>
+            <li>앱 계정 프로필 및 식별자(내부 사용자 ID)</li>
+            <li>인앱 크레딧·사용내역(환급 불가, 내부 포인트)</li>
+            <li>즐겨찾기/설정 등 사용자 생성 데이터</li>
+          </ul>
+        </div>
+        <div>
+          <h3>보관되는 데이터(법적/운영상 필요)</h3>
+          <ul>
+            <li>결제/정산 관련 기록: <strong>12개월</strong> 보관 후 파기</li>
+            <li>시스템 로그(보안/감사): <strong>7일</strong> 보관 후 파기</li>
+            <li>분쟁/사기 방지 목적의 최소 정보: 해결 시 즉시 또는 최대 <strong>12개월</strong></li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted">보관 기간은 관련 법령(전자상거래 등 소비자보호에 관한 법률, 국세기본법 등) 및 서비스 운영 정책에 따릅니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>3) 처리 소요 및 결과 안내</h2>
+      <ul>
+        <li>요청 접수 후 <strong>{{DELETE_TAT_BUSINESS_DAYS}} 영업일 이내</strong> 처리</li>
+        <li>처리 완료 시 이메일로 결과 통보</li>
+        <li>삭제 완료 후에는 복구가 불가능합니다.</li>
+      </ul>
+    </section>
+
+    <section class="card note">
+      <h2>임시 안내(테스트 단계)</h2>
+      <p>현재 TourCat 는 테스트/개발 단계입니다. 정식 서비스 출시 전, 본 페이지가 앱 내 자가 삭제 기능 및 자동화된 절차로 대체될 예정입니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>English (Summary)</h2>
+      <p><strong>{{APP_NAME}}</strong> account/data deletion. This page belongs to <strong>{{DEVELOPER_OR_COMPANY_NAME}}</strong>.</p>
+      <ol>
+        <li>Send an email to <a href="mailto:tourcat_support@gamil.com">tourcat_support@gamil.com</a> requesting account deletion.</li>
+        <li>We verify your identity and process the request within <strong>{{DELETE_TAT_BUSINESS_DAYS}} business days</strong>.</li>
+        <li>Billing records/logs may be retained for legal and security purposes for limited periods (see table above).</li>
+      </ol>
+    </section>
+
+    <footer class="footer">
+      © <span id="y"></span> {{DEVELOPER_OR_COMPANY_NAME}} · 문의: <a href="mailto:tourcat_support@gamil.com">tourcat_support@gamil.com</a>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
