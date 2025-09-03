@@ -1,53 +1,11 @@
 [
   {
     "id": 2,
-    "date": "20250902",
+    "date": "20250901",
     "notices": {
       "ko": {
-        "title": "ddgdgdgdd",
+        "title": "10회 결제권이 추가되었습니다.",
         "body": "소액으로 투어캣 AI 기능을 체험해 보세요!\n10회 결제로 부담 없이 AI 상품 검색을 이용하실 수 있습니다.\n코스트코, 올리브영 등 다양한 매장에서 더 현명한 쇼핑을 즐겨보세요."
-      },
-      "en": {
-        "title": "dgdgdggds been added.",
-        "body": "Experience TourCat AI features at a small cost!\nWith just 10 payments, you can enjoy AI product search without burden.\nShop smarter at Walmart and Target."
-      },
-      "ja": {
-        "title": "1dgdgdgd追加されました。",
-        "body": "少額でTourCatのAI機能を体験してみましょう！\n10回の決済で負担なくAI商品検索をご利用いただけます。\nイオンやドン・キホーテなどで賢いショッピングをお楽しみください。"
-      },
-      "zh": {
-        "title": "已dgdgd用权。",
-        "body": "用小额费用体验 TourCat 的 AI 功能！\n通过 10 次付款，轻松使用 AI 商品搜索功能。\n在 淘宝和京东 更聪明地购物吧。"
-      },
-      "fr": {
-        "title": "Un pass de 10 utilisations a été ajouté.",
-        "body": "Découvrez les fonctionnalités IA de TourCat à petit prix !\nAvec 10 paiements, profitez de la recherche de produits par IA sans contrainte.\nFaites vos achats plus intelligemment chez Carrefour et Monoprix."
-      },
-      "de": {
-        "title": "Ein 10er-Pass wurde hinzugefügt.",
-        "body": "Erleben Sie die TourCat-KI-Funktionen zum kleinen Preis!\nMit 10 Zahlungen können Sie die KI-Produktsuche ganz entspannt nutzen.\nEinkaufen bei Aldi und dm – jetzt noch smarter."
-      },
-      "it": {
-        "title": "È stato aggiunto un pacchetto da 10 utilizzi.",
-        "body": "Prova le funzionalità AI di TourCat a basso costo!\nCon 10 pagamenti puoi utilizzare la ricerca prodotti AI senza pensieri.\nAcquista in modo più intelligente da Coop ed Esselunga."
-      },
-      "th": {
-        "title": "เพิ่มสิทธิ์การชำระเงิน 10 ครั้งแล้ว",
-        "body": "ทดลองฟีเจอร์ AI ของ TourCat ได้ในราคาสบายกระเป๋า!\nเพียงชำระ 10 ครั้ง ก็สามารถใช้การค้นหาสินค้า AI ได้อย่างไร้กังวล\nช้อปปิ้งอย่างชาญฉลาดที่ Big C และ 7-Eleven"
-      },
-      "es": {
-        "title": "Se ha añadido un pase de 10 usos.",
-        "body": "¡Prueba las funciones de IA de TourCat con un pequeño coste!\nCon 10 pagos podrás usar la búsqueda de productos con IA sin preocupaciones.\nDisfruta de compras más inteligentes en El Corte Inglés y Mercadona."
-      }
-    }
-  },
-  {
-    "id": 3,
-    "date": "20250902",
-    "notices": {
-      "ko": {
-        "title": "Test",
-        "body": "test 공지"
       },
       "en": {
         "title": "10-time pass has been added.",
@@ -83,6 +41,4 @@
       }
     }
   }
-
 ]
-
