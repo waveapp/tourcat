@@ -40,5 +40,47 @@
         "body": "¡Prueba las funciones de IA de TourCat con un pequeño coste!\nCon 10 pagos podrás usar la búsqueda de productos con IA sin preocupaciones.\nDisfruta de compras más inteligentes en El Corte Inglés y Mercadona."
       }
     }
+  },
+  {
+    "id": 3,
+    "date": "20250912",
+    "notices": {
+      "ko": {
+        "title": "로그인 혜택이 추가되었습니다.",
+        "body": "로그인 하시면 2 크레딧이 부여됩니다. AI 기능을 체험해 보세요 (최초 1회만 지급). 이미 로그인 하신 분은 설정>로그아웃 하신 뒤 다시 로그인 해 주세요. 크레딧이 부여됩니다."
+      },
+      "en": {
+        "title": "Signin benefits have been added.",
+        "body": "When you log in, you will receive 2 credits. Try the AI features (granted only once). If you have already logged in, please go to Settings > Log out and log in again. The credits will be granted."
+      },
+      "ja": {
+        "title": "ログイン特典が追加されました。",
+        "body": "ログインすると2クレジットが付与されます。AI機能を体験してください（初回のみ付与）。すでにログイン済みの方は、設定＞ログアウトして再度ログインしてください。クレジットが付与されます。"
+      },
+      "zh": {
+        "title": "已新增登录福利。",
+        "body": "登录即可获得2点积分。体验AI功能（仅首次发放）。如果您已登录，请在“设置”中退出后重新登录，即可获得积分。"
+      },
+      "fr": {
+        "title": "Des avantages de connexion ont été ajoutés.",
+        "body": "En vous connectant, vous recevrez 2 crédits. Essayez les fonctions d’IA (attribués une seule fois). Si vous êtes déjà connecté, veuillez aller dans Paramètres > Déconnexion, puis vous reconnecter. Les crédits seront accordés."
+      },
+      "de": {
+        "title": "Login-Vorteile wurden hinzugefügt.",
+        "body": "Beim Einloggen erhalten Sie 2 Credits. Probieren Sie die KI-Funktionen aus (nur einmalig vergeben). Wenn Sie bereits eingeloggt sind, gehen Sie bitte zu Einstellungen > Abmelden und melden Sie sich erneut an. Die Credits werden gutgeschrieben."
+      },
+      "it": {
+        "title": "Sono stati aggiunti vantaggi di accesso.",
+        "body": "Accedendo riceverai 2 crediti. Prova le funzionalità AI (assegnati solo una volta). Se hai già effettuato l’accesso, vai su Impostazioni > Disconnetti e accedi di nuovo. I crediti verranno assegnati."
+      },
+      "th": {
+        "title": "มีการเพิ่มสิทธิประโยชน์การเข้าสู่ระบบแล้ว",
+        "body": "เมื่อเข้าสู่ระบบ คุณจะได้รับเครดิต 2 เครดิต ทดลองใช้ฟังก์ชัน AI (มอบให้ครั้งเดียวเท่านั้น) หากคุณเข้าสู่ระบบแล้ว โปรดไปที่การตั้งค่า > ออกจากระบบ แล้วเข้าสู่ระบบอีกครั้ง เครดิตจะถูกเพิ่มให้"
+      },
+      "es": {
+        "title": "Se han añadido beneficios de inicio de sesión.",
+        "body": "Al iniciar sesión, recibirás 2 créditos. Prueba las funciones de IA (se otorgan solo una vez). Si ya has iniciado sesión, ve a Configuración > Cerrar sesión y vuelve a iniciar sesión. Se otorgarán los créditos."
+      }
+    }
   }
 ]
