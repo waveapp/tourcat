@@ -1,119 +1,119 @@
 {
   "base": "USD",
-  "date": "20251023",
+  "date": "20251024",
   "rates": {
     "KRW": {
-      "rate": 1430.007464,
+      "rate": 1431.795913,
       "country_code": "KR",
       "symbol": "₩"
     },
     "JPY": {
-      "rate": 151.513219,
+      "rate": 151.811466,
       "country_code": "JP",
       "symbol": "¥"
     },
     "EUR": {
-      "rate": 0.861265,
+      "rate": 0.861655,
       "country_code": "EU",
       "symbol": "€"
     },
     "CNY": {
-      "rate": 7.093,
+      "rate": 7.0954,
       "country_code": "CN",
       "symbol": "¥"
     },
     "GBP": {
-      "rate": 0.747696,
+      "rate": 0.748861,
       "country_code": "GB",
       "symbol": "£"
     },
     "HKD": {
-      "rate": 7.7715,
+      "rate": 7.77112,
       "country_code": "HK",
       "symbol": "HK$"
     },
     "SGD": {
-      "rate": 1.297975,
+      "rate": 1.298073,
       "country_code": "SG",
       "symbol": "S$"
     },
     "THB": {
-      "rate": 32.789363,
+      "rate": 32.828352,
       "country_code": "TH",
       "symbol": "฿"
     },
     "TWD": {
-      "rate": 30.670215,
+      "rate": 30.743285,
       "country_code": "TW",
       "symbol": "NT$"
     },
     "PHP": {
-      "rate": 58.285516,
+      "rate": 58.448457,
       "country_code": "PH",
       "symbol": "₱"
     },
     "IDR": {
-      "rate": 16582.079612,
+      "rate": 16617.223601,
       "country_code": "ID",
       "symbol": "Rp"
     },
     "MYR": {
-      "rate": 4.228258,
+      "rate": 4.224579,
       "country_code": "MY",
       "symbol": "RM"
     },
     "VND": {
-      "rate": 26190.348638,
+      "rate": 26239.609101,
       "country_code": "VN",
       "symbol": "₫"
     },
     "AUD": {
-      "rate": 1.540433,
+      "rate": 1.540954,
       "country_code": "AU",
       "symbol": "A$"
     },
     "CAD": {
-      "rate": 1.403056,
+      "rate": 1.400355,
       "country_code": "CA",
       "symbol": "C$"
     },
     "NZD": {
-      "rate": 1.742447,
+      "rate": 1.74245,
       "country_code": "NZ",
       "symbol": "NZ$"
     },
     "RUB": {
-      "rate": 81.334585,
+      "rate": 81.601105,
       "country_code": "RU",
       "symbol": "₽"
     },
     "KZT": {
-      "rate": 538.424661,
+      "rate": 538.527609,
       "country_code": "KZ",
       "symbol": "₸"
     },
     "CZK": {
-      "rate": 20.94248,
+      "rate": 20.945819,
       "country_code": "CZ",
       "symbol": "Kč"
     },
     "UZS": {
-      "rate": 12071.354774,
+      "rate": 12080.230326,
       "country_code": "UZ",
       "symbol": "so'm"
     },
     "CHF": {
-      "rate": 0.795967,
+      "rate": 0.796321,
       "country_code": "CH",
       "symbol": "Fr."
     },
     "MXN": {
-      "rate": 18.436318,
+      "rate": 18.430373,
       "country_code": "MX",
       "symbol": "$"
     },
     "BRL": {
-      "rate": 5.384517,
+      "rate": 5.387139,
       "country_code": "BR",
       "symbol": "R$"
     },
@@ -128,17 +128,17 @@
       "symbol": "ر.س"
     },
     "INR": {
-      "rate": 88.029318,
+      "rate": 87.851942,
       "country_code": "IN",
       "symbol": "₹"
     },
     "TRY": {
-      "rate": 41.977679,
+      "rate": 41.997777,
       "country_code": "TR",
       "symbol": "₺"
     },
     "ZAR": {
-      "rate": 17.380682,
+      "rate": 17.423083,
       "country_code": "ZA",
       "symbol": "R"
     }
